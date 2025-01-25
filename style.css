@@ -1,0 +1,92 @@
+#main{
+    background: #BFD7EA;
+    position: block;
+    margin: 5% 5% 5% 5%;
+    border: 1px solid #9888A5;
+    border-radius: 10px;
+    padding: 1em;
+    box-shadow: 5px 5px 10px grey;
+    
+  }
+  #title{
+    display: flex;
+    justify-content: center;
+     color:#0B3954;
+    font-family: 'Bodoni Moda', serif;
+    text-shadow: 5px 5px 10px grey;
+    margin-bottom: 0;
+    font-size: 2em;
+   
+  }
+  #img-div{
+    display: block;
+    text-align: center;
+  }
+  #image{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    border-radius: 50%;
+    border:1px solid #9888A5;
+    box-shadow: 5px 5px 10px grey;
+    
+  }
+  
+  #img-caption{
+    text-align: center;
+    color:#0B3954;
+    font-family: 'Hind', sans-serif;
+    font-size: 1.5em;
+    padding: 15px 0 10px 0;
+    text-shadow: 1px 1px 3px #67697C;
+  }
+  p{
+    font-family: 'Hind', sans-serif;
+    padding: 0 2.5em 0 2.5em;
+    text-align: justify;
+    line-height: 1.8em;
+    letter-spacing: 0.1em;
+    font-size: 1em;
+    color:#0B3954;
+    text-shadow: 0.5px 0.5px 1px grey;
+  }
+  .b{
+    border: 1px solid #9888A5;
+    padding: 1em 2em 1em 2em;
+    text-align: center;
+    border-radius: 5px;
+    margin: 5px 60px 10px 60px;
+    box-shadow: 5px 5px 10px grey;
+  }
+  q{
+    padding: 1em;
+    display: block;
+    text-align: center;
+    font-size: 2em;
+    border: 1px solid #9888A5;
+    margin: 5px 40px 5px 40px;
+    border-radius: 5px;
+    color:#087E8B;
+    box-shadow: 5px 5px 10px grey;
+    text-shadow: 0.9px 0.9px 1px grey;
+    
+  }
+  .sign{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 200px;
+  }
+  .sign1{
+    text-align: center;
+      color:#0B3954;
+    text-shadow: 0.5px 0.5px 1px grey;
+  }
+  
+  @media (min-width:200px){
+    img{
+      max-width: 100%;
+      height: auto;
+    }
+  }
